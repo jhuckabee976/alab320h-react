@@ -1,0 +1,97 @@
+body {
+    font-family: 'Anomoly', serif ;
+    margin: 0 auto;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+    max-width: 1000px;
+    min-height: 100vh;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+}
+header h1 {
+    color: tomato;
+    font-size: 2em;
+}
+header h2 {
+    color: black;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: under;
+    color: gray;
+    padding: 10px;
+}
+
+main {
+    width: 80%;
+    margin: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+    padding-left: 15px;
+    border-left: 4px solid lightgray;   
+}
+
+article h2 {
+    font-size: 1.8em;
+    color:#000;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+.continue-btn {
+    display:inline;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.continue-btn:hover {
+  text-decoration: underline;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+footer .nav-list li a {
+    text-decoration: none;
+    color: tomato;
+    padding: 10px;
+}
+
+footer p {
+    margin-top: 20px;
+}
